@@ -9,4 +9,4 @@ Allow: /category/*
 
 
 
-Sitemap: https://bokepindotelegram.pages.dev/sitemap.xml
+Sitemap: https://bokepindokorea.pages.dev/sitemap.xml
