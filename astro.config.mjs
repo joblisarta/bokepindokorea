@@ -14,7 +14,7 @@ export default defineConfig({
       // Misalnya, pecah setiap 500 URL
       // limit: 500,
       
-      customPages: async () => {
+      customPages: [async () => {
         const videos = await getAllVideos();
 
         const videoPages = videos.map(video => ({
@@ -46,7 +46,7 @@ export default defineConfig({
         ];
 
         return [...staticPages, ...videoPages];
-      },
+      },]
     }),
     cloudflare(),
   ],
